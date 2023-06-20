@@ -1,5 +1,5 @@
 # ogcat
-Checks every single Discord username combination possible, written in Go.
+A tool written in Go that checks every single Discord username combination possible for availability.
 
 ## Installation
 Run the install_deps.bat to install the following tools:
