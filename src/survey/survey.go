@@ -5,6 +5,7 @@ import (
 	"errors"
 	"io"
 	"os"
+	"reflect"
 	"strings"
 	"unicode/utf8"
 
@@ -70,6 +71,8 @@ type Question struct {
 	Validate  Validator
 	Transform Transformer
 }
+
+var _ = reflect.TypeOf(Question{})
 
 // PromptConfig holds the global configuration for a prompt
 type PromptConfig struct {

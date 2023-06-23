@@ -91,6 +91,7 @@ func main() {
 		}
 	}
 
-	ch := make(chan bool)
-	<-ch
+	for {
+		time.Sleep(1 * time.Second)
+	}
 }

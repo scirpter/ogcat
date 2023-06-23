@@ -2,6 +2,7 @@ package survey
 
 import (
 	"errors"
+	"reflect"
 
 	"ogcat/src/survey/core"
 	"ogcat/src/survey/terminal"
@@ -27,6 +28,8 @@ type Input struct {
 	selectedIndex int
 	showingHelp   bool
 }
+
+var _ = reflect.TypeOf(Input{})
 
 // data available to the templates when processing
 type InputTemplateData struct {

@@ -4,7 +4,6 @@ A tool written in Go that checks every single Discord username combination possi
 ## Installation
 Run the install_deps.bat to install the following tools:
 - [Syso](https://github.com/hallazzang/syso)
-- [Garble](https://github.com/burrowers/garble)
 
 ## Build
 Run the build.bat to build the project. This will produce a **OGCAT.exe** file in the `./bin` directory.

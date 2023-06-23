@@ -2,9 +2,8 @@
 setlocal enabledelayedexpansion
 
 cd ./bin
-go install mvdan.cc/garble@latest
 
-set BUILD_COMMAND=garble -literals -tiny -seed=random build ../src
+set BUILD_COMMAND=go build ../src
 
 echo Building for Windows...
 %BUILD_COMMAND%

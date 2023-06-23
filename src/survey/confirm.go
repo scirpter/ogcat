@@ -2,6 +2,7 @@ package survey
 
 import (
 	"fmt"
+	"reflect"
 	"regexp"
 )
 
@@ -12,6 +13,8 @@ type Confirm struct {
 	Default bool
 	Help    string
 }
+
+var _ = reflect.TypeOf(Confirm{})
 
 // data available to the templates when processing
 type ConfirmTemplateData struct {
